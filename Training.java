@@ -4,7 +4,7 @@ public class Training {
 
 	public static int memberIdGenerator;
 
-    protected int memberId;
+        protected int memberId;
 	protected String memberName;
 	protected String memberType;
 	protected String course;
@@ -16,11 +16,11 @@ public class Training {
 	public Training() {
 		
 		
-		memberId = ++memberIdGenerator;
+	memberId = ++memberIdGenerator;
 		
 	}
 	
-	// to create a new loan object
+	// to create a new loan object   ?????????????? How do I use this ??????
 	
 	public Training getNewObject() {
 		Training t1 = new Training();
@@ -105,12 +105,6 @@ public class Training {
 	 }
 	 
 	 
-//		 else if (memberType == "Employee") {
-//			  System.out.println("The member is a : " + memberType + " and requested for " + course + " recording");
-	 
-	 
-
-		
 	}
 	 
 	 
