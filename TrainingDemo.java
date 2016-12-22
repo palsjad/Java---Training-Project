@@ -34,9 +34,7 @@ public class TrainingDemo {
 	
 	person1.getLectures(cd, "Recording");
 	
-//	int id = person1.getMemberId();
-//	String type = person1.getMemberType();
-	
+
 
 // **********************************creating 2nd object ***********************************************
 	 
@@ -63,10 +61,6 @@ public class TrainingDemo {
 //-------------- to get the recording for the student--------------------- 
 	
 	person2.getLectures(cd, "Presentation");
-	
-//	int id = person1.getMemberId();
-//	String type = person1.getMemberType();
-	
 	
 
 	
